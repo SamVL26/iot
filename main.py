@@ -3,7 +3,7 @@ openpyxl
 import pandas as pd
 from flash import flash
 
-app=Flask(_name_)
+app=Flask(_Name_)
 
 base=pd.read_excel("pokemones.xlsx")
 
@@ -24,7 +24,7 @@ def PorTipo(Tipo):
   Resultados= str (resultados)
   return resultados 
 
-@app.router("/Por_Ataque/Defensa/Velocidad>'")
+@app.router("/Por_Ataque/Defensa/Velocidad>")
 def PorAtaque(Ataque):
   Peso1=float(Defensa)
   Peso2=float(Velocidad) 
